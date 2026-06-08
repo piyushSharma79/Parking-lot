@@ -14,4 +14,8 @@ public class GateRepository {
     public GateRepository(Map<Integer, Gate> map){
         this.map = map;
     }
+
+    public Gate getGateById(int gateId){
+        return map.get(gateId);
+    }
 }

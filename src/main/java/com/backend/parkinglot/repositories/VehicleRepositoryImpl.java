@@ -5,13 +5,12 @@ import com.backend.parkinglot.models.VehicleType;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.TreeMap;
 
-public class VehicleRepositoriesImpl implements VehicleRepository{
+public class VehicleRepositoryImpl implements VehicleRepository{
 
     private HashMap<Integer, Vehicle> map;
 
-    public  VehicleRepositoriesImpl(){
+    public VehicleRepositoryImpl(){
         map = new HashMap<>();
     }
     @Override

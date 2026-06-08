@@ -5,7 +5,7 @@ import lombok.Data;
 @Data
 public class Gate {
     private int id;
-    private GateType gateTypes;
+    private GateType gateType;
     private Operator currOperator;
 
 

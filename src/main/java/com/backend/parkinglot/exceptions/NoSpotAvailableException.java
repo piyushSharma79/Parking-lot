@@ -1,8 +1,8 @@
 package com.backend.parkinglot.exceptions;
 
-public class NoSpotAvailableException extends Throwable {
+public class NoSpotAvailableException extends Exception {
 
-    public NoSpotAvailableException() {
-        System.out.println("No spot available at the moment");
+    public NoSpotAvailableException(String message) {
+        super(message);
     }
 }
