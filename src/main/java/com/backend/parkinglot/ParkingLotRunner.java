@@ -69,6 +69,5 @@ public class ParkingLotRunner {
         requestDto.setGateId(gate1.getId());
 
         GenerateTicketResponseDto responseDto = ticketController.generateTicket(requestDto);
-        System.out.println("DEBUG");
     }
 }
